@@ -23,7 +23,7 @@ try:
 		print("\033[1;41mMasukin nomor!\033[0m")
 		sys.exit()
 			
-	Key = "df7d204863194c69854107bf761dc360"
+	Key = "38c1da83c6f64a81aa87cd5179e25491"
 	
 	check_number = phonenumbers.parse(text)
 	number_location = geocoder.description_for_number(check_number, "en")
