@@ -39,6 +39,7 @@ try:
 	
 	lat = results[0]['geometry']['lat']
 	lng = results[0]['geometry']['lng']
+	# format = results[0]['formatted']
 	print(lat, lng)
 	
 	map_location = folium.Map(location=[lat, lng], zoom_start=9)
