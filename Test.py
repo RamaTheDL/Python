@@ -46,7 +46,7 @@ try:
 	myMap = folium.Map(loction=[lat,lng],zoom_start = 9)
 	 
 	# Adding a Marker on the map to show the location name
-	folium.Marker([lat,lng],popup=yourLocation).add_to(myMap)
+	folium.Marker([lat,lng],popup=x).add_to(myMap)
  	
 	# save map to html file to open it and see the actual location in map format
 	myMap.save("Location.html")
